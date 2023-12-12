@@ -6,3 +6,4 @@ def index(request):
     else:
         return redirect("users/login/")
 
+
