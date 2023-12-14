@@ -1,10 +1,16 @@
+{% load static %}
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+       <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <title>tergram</title>
+    {% block head %}{% endblock %}
 </head>
 <body>
-$END$
+    {% block base_content %}{% endblock %}
+
 </body>
 </html>
